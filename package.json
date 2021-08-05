@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "electron:dev": "start vite && electron ."
+    "serve": "vite preview"
   },
   "prettier": {
     "printWidth": 120
