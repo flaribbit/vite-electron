@@ -5,7 +5,7 @@ import child_process from 'child_process'
 if (process.env.NODE_ENV) {
   var basepath = '';
 } else {
-  var basepath = '/';
+  var basepath = './';
   process.env.VITE_DEV = "1";
   console.log(process.env);
   child_process.exec("electron .");
